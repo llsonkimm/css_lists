@@ -1,0 +1,71 @@
+.numbering ul {
+    list-style-type: square;
+}
+
+.numbering ol {
+    list-style-type: upper-roman;
+}
+
+.PositionsOfMarkers ol li{
+    background: #ddd;
+    padding: 5px;
+    margin: 5px;
+}
+ 
+.PositionsOfMarkers .Inside {
+    list-style-position: inside;
+}
+
+.PositionsOfMarkers .Outside {
+    list-style-position: outside;
+}
+
+.Imageaslistmarkers ul li{
+    list-style-image: url(images/images.jpeg);
+    margin: 350px;
+}
+
+.bulletlistmarkers ul{
+    list-style-type: none;
+}
+
+.bulletlistmarkers ul li{
+    background-image: url(images/images.jpeg);
+    background-position: 2px;
+    background-repeat: no-repeat;
+    margin: 5px;
+}
+
+.liststyleshorthand ul{
+    list-style: square inside url(images/images.jpeg);
+}
+
+.liststyleshorthand ul li{
+    background: #d8d4d4;
+    margin: 5px, 0px;
+    padding: 5px;
+}
+
+nav ul{
+    list-style: none;
+    padding: 0px;
+    background: #f3f2f2;
+    text-align: center;
+}
+
+nav ul li{
+    display: inline-block;
+}
+
+nav ul li a{
+    display: block;
+    /* padding: 10px, 250px; */
+    color: black;
+    text-decoration: none;
+    padding: 10px;
+}
+
+nav ul li a:hover{
+    color: #fff;
+    background: #987398;
+}
